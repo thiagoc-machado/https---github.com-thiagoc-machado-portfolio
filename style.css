@@ -6,39 +6,43 @@
   box-sizing: border-box;
   font-family: 'Montserrat';
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-#inicio{
-  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("img/back.jpg");
+
+/* SECCION INICIO */
+
+#inicio {
+  background: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .7)),url("img/back.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
-#inicio .contenido header{
-  background-color: rgba(0,0,0,.8);
+#inicio .contenido header {
+  background-color: rgba(0,0,0, .8);
   position: fixed;
   width: 100%;
   z-index: 100;
   top: 0;
 }
-#inicio .contenido header .contenido-header{
+#inicio .contenido header .contenido-header {
   max-width: 1100px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
 }
-#inicio .contenido header .contenido-header h1{
+#inicio .contenido header .contenido-header h1 {
   text-align: center;
   color: #ff5080;
 }
-#inicio .contenido header .contenido-header nav ul{
+#inicio .contenido header .contenido-header nav ul {
   list-style: nome;
   display: flex;
   align-items: center;
 }
-#inicio .contenido header .contenido-header nav ul li a{
+#inicio .contenido header .contenido-header nav ul li a {
   text-decoration: none;
   color: #fff;
   margin: 0 12px;
@@ -56,6 +60,9 @@ html{
   transition: .5s;
 }
 #inicio .contenido header .contenido-header .redes a:hover {
+  color: #ff5080;
+}
+#inicio .contenido header .contenido-header .seleccionado {
   color: #ff5080;
 }
 #inicio .contenido .presentacion {
@@ -83,9 +90,10 @@ html{
   font-size: 25px;
   color: #ff5080;
 }
-#inicio .contenido .presentacion h2 .descripcion {
+#inicio .contenido .presentacion .descripcion {
   max-width: 700px;
   margin: 25px auto;
+  font-size: 18px;
   text-align: center;
 }
 #inicio .contenido .presentacion a {
@@ -125,7 +133,7 @@ html{
   border-radius: 20px;
   background-color: #f3f3f3;
 }
-sobremi .sobremi {
+#sobremi .sobremi {
   margin: 0 40px;
 }
 #sobremi .sobremi .titulo-seccion {
@@ -139,6 +147,9 @@ sobremi .sobremi {
   font-weight: bold;
   margin: 20px 0;
   letter-spacing: 2px;
+}
+#sobremi .sobremi h2 span {
+  color: #ff5080;
 }
 #sobremi .sobremi h3 {
   font-size: 18px;
@@ -158,8 +169,8 @@ sobremi .sobremi {
   text-decoration: none;
   color: #000;
   border-radius: 30px;
-  padding: 10px 20px;
   border: 1px solid #000;
+  padding: 10px 20px;
   margin-top: 30px;
   transition: .5s; 
 }
