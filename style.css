@@ -293,7 +293,7 @@ margin-bottom: 25px;
 }
 .contenedor-skills .skill .barra .barra-progreso4 {
   background-color: #fff;
-  width: 95%;
+  width: 75%;
   height: 6px;
   animation: progreso4 2s forwards;
 }
